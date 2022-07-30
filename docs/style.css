@@ -214,20 +214,20 @@ header .toggle.active {
   max-width: 100%;
   filter: invert(1);
 }
-.client {
+.experience {
   position: relative;
   padding: 100px;
   background: #162c3b;
   text-align: center;
 }
-.client .imgBx {
+.experience .imgBx {
   display: flex;
   justify-content: space-between;
   text-align: center;
   flex-wrap: wrap;
   margin-top: 40px;
 }
-.client .imgBx img {
+.experience .imgBx img {
   display: inline-block;
   position: relative;
   max-width: 200px;
@@ -235,23 +235,23 @@ header .toggle.active {
   opacity: 0.25;
   cursor: pointer;
 }
-.client .imgBx img:hover {
+.experience .imgBx img:hover {
   opacity: 1;
 }
-.testimonials {
+.projects {
   position: relative;
   padding: 100px;
   background: #12222d;
   text-align: center;
 }
-.testimonials .container {
+.projects .container {
   display: flex;
   justify-content: center;
   align-items: center;
   margin: 40px;
   flex-wrap: wrap;
 }
-.testimonials .container .contentBx {
+.projects .container .contentBx {
   position: relative;
   background: #fff;
   padding: 60px 50px;
@@ -262,10 +262,10 @@ header .toggle.active {
   justify-content: center;
   align-items: center;
 }
-.testimonials .container .contentBx p {
+.projects .container .contentBx p {
   font-style: italic;
 }
-.testimonials .container .contentBx h3 {
+.projects .container .contentBx h3 {
   width: 100%;
   text-align: right;
   font-weight: 500;
@@ -417,13 +417,13 @@ header .toggle.active {
   .interests .imgBx {
     justify-content: center;
   }
-  .testimonials {
+  .projects {
     padding: 50px;
   }
-  .testimonials .container {
+  .projects .container {
     margin: 0;
   }
-  .testimonials .container .contentBx {
+  .projects .container .contentBx {
     padding: 40px 30px;
   }
   .contact {
